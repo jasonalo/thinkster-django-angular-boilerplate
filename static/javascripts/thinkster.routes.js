@@ -16,10 +16,10 @@
       controller: 'RegisterController', 
       controllerAs: 'vm',
       templateUrl: '/static/templates/authentication/register.html'
-    }).when('login', {
+    }).when('/login', {
       controller: 'LoginController',
       controllerAs: 'vm',
-      templateUrl: '/static/template/authentication/login.html'
+      templateUrl: '/static/templates/authentication/login.html'
     }).otherwise('/');
   }
 })();
